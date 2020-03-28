@@ -16,5 +16,36 @@ import static com.wkrzywiec.medium.noticeboard.mapper.AuthorMapper.INSTANCE;
 @Service
 @RequiredArgsConstructor
 public class FizzBuzz {
+	String processNumber(int num)
+	{
+        return null;
+		// if(num%15 == 0 )
+		// {
+		// 	return "FizzBuzz";
+		// }
+		// if(num%3 == 0 )
+		// {
+		// 	return "Fizz";
+		// }
+		// if (num%5 == 0)
+		// {
+		// 	return "Buzz";	
+		// }
+		// return String.valueOf(num);
+	}
+	
+	String processNumbers (int[] numList)
+	{
+		String list = "";
+		// for (int i = 0; i < numList.length; i++)
+		// {
+		// 	list += processNumber(numList[i]);
+		// 	if (i < numList.length-1)
+		// 	{
+		// 		list += ", ";
+		// 	}
+		// }
+		return list;
+	}
 
 }
