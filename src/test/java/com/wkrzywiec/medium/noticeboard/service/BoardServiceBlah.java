@@ -21,7 +21,7 @@ import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
 @DisplayName("Unit tests of BoardService class")
-public class BoardServiceTest {
+public class BoardServiceBlah {
 
     @Mock
     private BoardRepository boardRepository;

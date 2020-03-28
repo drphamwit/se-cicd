@@ -26,7 +26,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @ExtendWith(SpringExtension.class)
 @WebMvcTest(BoardController.class)
 @DisplayName("Unit tests of BoardController")
-public class BoardControllerTest {
+public class BoardControllerBlah {
 
     @Autowired
     private MockMvc mockMvc;
