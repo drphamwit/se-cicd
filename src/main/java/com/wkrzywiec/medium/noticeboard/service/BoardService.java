@@ -21,7 +21,7 @@ public class BoardService implements CrudService<BoardDTO> {
     @Override
     public List<BoardDTO> findAll() {
         List<BoardDTO> boardDTOList = new ArrayList<>();
-        //boardRepository.findAll().forEach(board -> boardDTOList.add(INSTANCE.boardToDto(board)));
+        boardRepository.findAll().forEach(board -> boardDTOList.add(INSTANCE.boardToDto(board)));
         return boardDTOList;
     }
 
